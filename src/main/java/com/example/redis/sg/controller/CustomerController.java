@@ -19,6 +19,7 @@ public class CustomerController {
     public String getCustomerDataNew() {
         System.out.println(" -- controller -- ");
         System.out.println(" -- master test -- ");
+        System.out.println(" -- my controller -- ");
         return "Sagar";
     }
 }
