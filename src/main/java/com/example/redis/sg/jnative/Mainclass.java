@@ -16,11 +16,11 @@ interface MyInt {
 }
 
 public class Mainclass {
-
     public static void main(String[] args) {
         String $s_a="abc";
         System.out.println(NumberFormat.getNumberInstance());
         boolean b=false;
         System.out.println("boolean b-> "+b);
+        System.out.println(" done ";
     }
 }
