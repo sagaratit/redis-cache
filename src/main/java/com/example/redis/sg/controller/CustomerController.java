@@ -20,6 +20,7 @@ public class CustomerController {
 
     @GetMapping("/test1")
     public String getCustomerDataNew() {
+        System.out.println(" -- hotfix change -- ");
         System.out.println(" -- controller -- ");
         System.out.println(" -- master test -- ");
         System.out.println(" -- my controller -- ");
