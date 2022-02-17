@@ -11,7 +11,7 @@ public class CustomerService {
 
     @Cacheable(key="#id")
     public Customer getCustomerInfo(Long id) {
-        System.out.println("Load form DB");
+        System.out.println("Load form Database");
         return new Customer("Sagar",id,"Satara");
     }
 }
